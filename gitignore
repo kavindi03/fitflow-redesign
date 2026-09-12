@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+**/node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build outputs
+/frontend/ios/build/
+/frontend/android/app/build/
+/frontend/android/.gradle/
+dist/
+build/
+.expo/
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+*.pem
+serviceAccountKey.json
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+
+# Misc
+*.tsbuildinfo
